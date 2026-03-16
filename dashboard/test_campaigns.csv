@@ -1,0 +1,13 @@
+Campaign_ID,Campaign_Type,Channel_Used,Revenue,ROI,Duration,Impressions,Clicks,Leads,Conversions,Language,Engagement_Score,Customer_Segment,Date,Acquisition_Cost
+C001,Email,Email,45000,5.2,30,120000,8500,420,85,English,7.8,Enterprise,2024-01-15,8600
+C002,Social Media,Facebook,32000,3.8,45,250000,15000,680,120,English,6.5,SMB,2024-02-01,8400
+C003,PPC,Google Ads,67000,7.1,60,180000,12000,550,200,English,8.2,Enterprise,2024-02-15,9400
+C004,Content,Blog,18000,2.4,90,95000,4500,210,45,Spanish,5.1,Startup,2024-03-01,7500
+C005,Display,Banner,28000,4.0,25,300000,9000,310,70,English,6.9,SMB,2024-03-10,7000
+C006,Email,Email,52000,6.3,35,140000,9500,480,110,French,7.5,Enterprise,2024-03-20,8250
+C007,Social Media,Instagram,41000,4.5,50,280000,18000,750,165,English,7.2,SMB,2024-04-01,9100
+C008,PPC,Google Ads,73000,8.0,55,200000,14000,620,230,German,8.8,Enterprise,2024-04-15,9125
+C009,Content,YouTube,22000,3.1,75,160000,7000,280,60,English,5.8,Startup,2024-05-01,7100
+C010,Influencer,TikTok,38000,4.9,40,350000,20000,900,180,English,7.6,SMB,2024-05-15,7750
+C011,Email,Email,48000,5.5,28,130000,8800,430,92,Spanish,7.4,Enterprise,2024-06-01,8730
+C012,PPC,Bing Ads,31000,3.6,65,110000,6500,300,65,English,6.0,Startup,2024-06-10,8610

@@ -1,0 +1,105 @@
+.segment-table-wrapper {
+  max-height: 260px;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+.segment-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.85rem;
+}
+
+.segment-table thead th {
+  background: rgba(20, 184, 166, 0.12);
+  color: var(--accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem;
+  padding: 0.85rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.segment-table thead th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.segment-table thead th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.segment-table tbody tr {
+  transition: background-color 0.2s ease;
+}
+
+.segment-table tbody tr:hover {
+  background-color: rgba(20, 184, 166, 0.06);
+}
+
+.segment-table tbody td {
+  padding: 0.75rem 1rem;
+  color: var(--text-white);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.segment-table tbody tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.segment-table tbody td:first-child {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.segment-cell-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.segment-bar-track {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.segment-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--accent-dark), var(--accent));
+  transition: width 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.segment-bar-value {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-white);
+  min-width: 32px;
+  text-align: right;
+}
+
+.segment-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.segment-footer {
+  display: block;
+  padding-top: 0.65rem;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-align: center;
+  font-weight: 500;
+}

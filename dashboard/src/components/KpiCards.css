@@ -1,0 +1,66 @@
+.kpi-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.5rem 1.75rem;
+}
+
+.kpi-icon-wrapper {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.kpi-icon-wrapper.berry {
+  background: linear-gradient(135deg, rgba(255, 0, 110, 0.2), rgba(255, 0, 110, 0.05));
+  color: var(--berry);
+}
+
+.kpi-icon-wrapper.naga {
+  background: linear-gradient(135deg, rgba(255, 77, 0, 0.2), rgba(255, 77, 0, 0.05));
+  color: var(--naga);
+}
+
+.kpi-icon-wrapper.ashen {
+  background: linear-gradient(135deg, rgba(58, 12, 163, 0.2), rgba(58, 12, 163, 0.05));
+  color: #7209b7; /* A bit lighter than ashen for better visibility */
+}
+
+.kpi-icon-wrapper.vino {
+  background: linear-gradient(135deg, rgba(144, 12, 63, 0.2), rgba(144, 12, 63, 0.05));
+  color: #c70039;
+}
+
+.kpi-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.kpi-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.kpi-value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-white);
+  letter-spacing: -0.02em;
+}
+
+.kpi-change {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}

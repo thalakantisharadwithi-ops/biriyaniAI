@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+dashboard/node_modules/
+
+# Extensions (VS Code)
+extensions/
+
+# Build artifacts
+dist/
+dashboard/dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+dashboard/.env
+dashboard/server/.env
+server/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+temp/
+tmp/
+CortexRecordings/
+Recording_*
